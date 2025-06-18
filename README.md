@@ -1,3 +1,49 @@
+# Projeto Next.js
+
+Este é um projeto desenvolvido com [Next.js](https://nextjs.org/).
+
+## 📦 Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+yarn install
+```
+
+# Rodando o projeto em desenvolvimento
+
+```bash
+yarn dev
+```
+
+## A aplicação estará disponível em:
+
+```bash
+localhost:3000
+```
+
+## Tecnologias utilizadas
+
+-   Nextjs 15.3.3
+-   Typescript 5
+-   React-hook-form
+-   Zod
+-   Zustand
+-   Tailwindcss 4
+
+## Estrutura de pastas (resumo)
+
+```bash
+src/
+├── app/            # Rotas e páginas (Next App Router)
+├── components/     # Componentes visuais
+├── domain/         # Lógica de negócio (Domínio)
+├── data/           # Comunicação com API (camada de infraestrutura)
+├── store/          # Gerenciamento de estado
+├── utils/          # Funções utilitárias
+└── styles/         # Estilos globais
+```
+
 ## Configurações Adicionais para Integração com o Back-end
 
 Durante o desenvolvimento deste projeto Next.js para o teste de processo seletivo, foi necessário realizar algumas configurações e ajustes no back-end local (API em Flask), a fim de garantir o correto funcionamento da comunicação entre front-end e back-end.
